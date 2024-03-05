@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.email "shirui.gu@warwick.ac.uk"
           git config --global user.name "SherryG810"
-          git add --all figures/
+          git add --all database/
       - name: Commit files
         run: |
           git commit -m "Add regression plot figure"
